@@ -1,14 +1,25 @@
 body {
     background-color:#fff;
+    font-family: 'Helvetica';
+    font-size: 30px;
+}
+
+div {
+    background-color: whitesmoke;
+    height: auto;
+    width: auto;
 }
 
 h1 {
-    font-family: 'Helvetica', sans-serif;
-    font-size: 35px;
-    color: lightseagreen;
+    font-size: 60px;
+    color: #264653;
 }
 
 h2 {
-    font-family: 'Raleway' sans-serif;
+    font-size: 40px;
     color
+}
+
+li {
+    font-family: 'Helvetica', sans-serif;
 }
