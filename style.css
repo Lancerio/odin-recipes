@@ -4,14 +4,29 @@ body {
     font-size: 20px;
 }
 
-.site-name {
+.header {
     background-color: #f77f00;
+    height: 40px;
     margin: 20px;
     padding: 10px;
+    
     font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
     color: #fff;
-    text-align: center;
+    font-weight: bolder;
+    padding: 2px 15px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.sitename {
+    font-size: 30px;
+}
+
+.ask {
+    align-self: flex-end;
 }
 
 h1 {
