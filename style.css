@@ -1,33 +1,49 @@
 body {
     background-color:#fff;
-    font-family: 'Helvetica';
-    font-size: 30px;
 }
 
-div {
-    background-color: whitesmoke;
-    height: auto;
-    width: auto;
+.site-name {
+    background-color: #f77f00;
+    margin: 20px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
 }
 
 h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
     text-align: center;
-    font-size: 60px;
-    color: #264653;
 }
 
-h2 {
-    font-size: 40px;
-    color
+.recipe-container {
+    background-color: #d62828;
+    margin: 20px;
+    padding: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-p {
-    font-size: 30px;
+.item {
+    background-color: #fff;
+    height: 250px;
+    margin: 10px;
+    flex: 1;
+
+
+
 }
 
-li {
-    font-family: 'Helvetica', sans-serif;
+img {
+    width: 50px;
+    height: 50px;
+
 }
+
 
 .center {
     display: block;
